@@ -3,3 +3,21 @@ h1{
   text-align: center;
   border-bottom: 2px solid DodgerBlue;
 }
+h4{
+  color: DodgerBlue;
+  font-style: italic;
+
+}
+.content-holder{
+  width: 100%;
+  height: inherit;
+  display: flex;
+  margin-top: 10px;
+  border:solid;
+}
+.underline{
+  text-decoration: underline;
+}
+.emboldened-text{
+  font-weight: bold;
+}
