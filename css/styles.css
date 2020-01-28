@@ -6,6 +6,7 @@ h1{
 h4{
   color: DodgerBlue;
   font-style: italic;
+  border-style: outset;
 
 }
 .content-holder{
@@ -20,4 +21,29 @@ h4{
 }
 .emboldened-text{
   font-weight: bold;
+}
+#personal{
+  width:45%;
+  margin-left: 50px;
+}
+.personal{
+  width: 100%
+  border: solid;
+  height: inherit;
+  display:flex;
+}
+#personal-sep{
+  width: 50%
+  border:solid;
+}
+#personal_sep{
+  width: 50%
+  border:solid;
+  display: block;
+  margin-left: 50px;
+}
+#work-experience{
+  border: 2px solid black;
+  width: 65%;
+  margin-left: 30px;
 }
