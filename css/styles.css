@@ -6,44 +6,72 @@ h1{
 h4{
   color: DodgerBlue;
   font-style: italic;
-  border-style: outset;
+  /* border-style: outset; */
+  border-bottom: 1px solid DodgerBlue;
 
+}
+h6{
+  text-align: center;
 }
 .content-holder{
   width: 100%;
   height: inherit;
   display: flex;
   margin-top: 10px;
-  border:solid;
+  /* border:solid; */
 }
 .underline{
-  text-decoration: underline;
+  border-bottom: 1px solid DodgerBlue;
+
 }
 .emboldened-text{
   font-weight: bold;
 }
 #personal{
   width:45%;
-  margin-left: 50px;
+  margin-left: 25px;
 }
 .personal{
   width: 100%
-  border: solid;
+  /* border: solid; */
   height: inherit;
   display:flex;
 }
 #personal-sep{
   width: 50%
-  border:solid;
+
+  /* border:solid; */
 }
 #personal_sep{
   width: 50%
-  border:solid;
-  display: block;
+  /* border:solid; */
+  /* display: flex; */
   margin-left: 50px;
+  /* border: 1px solid grey; */
+  /* background-color: lightgrey; */
+  padding-right: 50px;
 }
 #work-experience{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 65%;
   margin-left: 30px;
+  margin-right: 5px;
+}
+.details{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+p,div{
+  font-style: Verdana;
+  font-size: 13.4px;
+}
+#email{
+  width:25%;
+  font-size: 10px;
+}
+#social{
+  width:50%;
+}
+#phone{
+  width: 25%
 }
